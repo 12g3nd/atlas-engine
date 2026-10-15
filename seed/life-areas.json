@@ -1,0 +1,206 @@
+{
+  "format_version": 1,
+  "instructions": "Seed these areas once. Suggested branches are examples, not mandatory precreated folders. Resolve references by seed_key, never by a mutable display name.",
+  "areas": [
+    {
+      "seed_key": "inner-life",
+      "name": "Inner Life & Identity",
+      "description": "Beliefs, values, feelings, motivation, questions, and changing self-understanding.",
+      "suggested_branches": [
+        "Beliefs and values",
+        "Doubts and contradictions",
+        "Feelings and motivation",
+        "Letters to myself"
+      ],
+      "parent_seed_key": null,
+      "display_order": 0
+    },
+    {
+      "seed_key": "health",
+      "name": "Health & Care",
+      "description": "Physical and mental health, everyday care, and observations about what helps.",
+      "suggested_branches": [
+        "Physical health",
+        "Mental health",
+        "Sleep and energy",
+        "Movement, food, and rest",
+        "Care and appointment questions"
+      ],
+      "parent_seed_key": null,
+      "display_order": 1
+    },
+    {
+      "seed_key": "relationships",
+      "name": "Relationships & Social Life",
+      "description": "Connection, social experiences, meeting people, dating, and the context around relationships.",
+      "suggested_branches": [
+        "Friendship",
+        "Meeting people",
+        "Dating and intimacy",
+        "Plans and hosting",
+        "Social confidence",
+        "Boundaries and communication"
+      ],
+      "parent_seed_key": null,
+      "display_order": 2
+    },
+    {
+      "seed_key": "roots",
+      "name": "Roots & Personal History",
+      "description": "Family, culture, places of origin, formative experiences, and things worth remembering.",
+      "suggested_branches": [
+        "Family stories",
+        "Upbringing and culture",
+        "Formative experiences",
+        "Meaningful objects",
+        "Memories and former selves"
+      ],
+      "parent_seed_key": null,
+      "display_order": 3
+    },
+    {
+      "seed_key": "academia",
+      "name": "Learning & Academia",
+      "description": "The wider academic picture, without replacing the school-note workspace.",
+      "suggested_branches": [
+        "Grades and GPA records",
+        "Study methods",
+        "Research and intellectual questions",
+        "Professors and peers",
+        "Awards and grants",
+        "Academic opportunities"
+      ],
+      "parent_seed_key": null,
+      "display_order": 4
+    },
+    {
+      "seed_key": "career",
+      "name": "Career & Working Life",
+      "description": "Work, possibilities, skills, connections, and what a meaningful working life might involve.",
+      "suggested_branches": [
+        "Current work",
+        "Possible directions",
+        "Industries and organizations",
+        "Skills",
+        "Professional connections",
+        "Decisions and opportunities"
+      ],
+      "parent_seed_key": null,
+      "display_order": 5
+    },
+    {
+      "seed_key": "making",
+      "name": "Making & Creative Practice",
+      "description": "Original work, fragments, projects, revisions, and experiments without a required audience.",
+      "suggested_branches": [
+        "Poems and stories",
+        "Essays and videos",
+        "Design",
+        "Software and builds",
+        "Fragments and unfinished work",
+        "Creative process"
+      ],
+      "parent_seed_key": null,
+      "display_order": 6
+    },
+    {
+      "seed_key": "arts",
+      "name": "Arts, Culture & Taste",
+      "description": "Encountering and appreciating work, developing taste, and understanding what moves you.",
+      "suggested_branches": [
+        "Books and poetry",
+        "Music",
+        "Film",
+        "Visual art and performance",
+        "Criticism and influences",
+        "Changing taste"
+      ],
+      "parent_seed_key": null,
+      "display_order": 7
+    },
+    {
+      "seed_key": "money",
+      "name": "Money & Independence",
+      "description": "Financial context, practical records, major decisions, security, and the meaning of enough.",
+      "suggested_branches": [
+        "Goals and practical records",
+        "Purchases and decisions",
+        "Independence and security",
+        "Generosity",
+        "Enough"
+      ],
+      "parent_seed_key": null,
+      "display_order": 8
+    },
+    {
+      "seed_key": "everyday",
+      "name": "Home & Everyday Life",
+      "description": "The practical and material setting of ordinary life.",
+      "suggested_branches": [
+        "Home and living arrangements",
+        "Life administration",
+        "Devices and maintenance",
+        "Documents and personal systems",
+        "Clothing and environment"
+      ],
+      "parent_seed_key": null,
+      "display_order": 9
+    },
+    {
+      "seed_key": "travel",
+      "name": "Places, Travel & Experiences",
+      "description": "Anticipation, places, experiences, practical trip context, and reflections afterward.",
+      "suggested_branches": [
+        "Upcoming trips",
+        "Places to explore",
+        "Experiences to try",
+        "Photographs and observations",
+        "Before and afterward"
+      ],
+      "parent_seed_key": null,
+      "display_order": 10
+    },
+    {
+      "seed_key": "play",
+      "name": "Play & Curiosity",
+      "description": "Interests and experiments allowed to exist without an achievement goal.",
+      "suggested_branches": [
+        "Hobbies and games",
+        "Odd interests",
+        "Small adventures",
+        "Questions without an immediate use",
+        "Experiments for pleasure"
+      ],
+      "parent_seed_key": null,
+      "display_order": 11
+    },
+    {
+      "seed_key": "community",
+      "name": "Community & Contribution",
+      "description": "Belonging, volunteering, causes, responsibility, and ways to contribute.",
+      "suggested_branches": [
+        "Volunteering",
+        "Organizations and causes",
+        "Belonging",
+        "Responsibilities",
+        "Ways to help"
+      ],
+      "parent_seed_key": null,
+      "display_order": 12
+    },
+    {
+      "seed_key": "internet-bible",
+      "name": "Internet Bible",
+      "description": "Things encountered online, saved with context and a clear distinction between links and local content.",
+      "suggested_branches": [
+        "Websites and articles",
+        "Videos and images",
+        "Tools and references",
+        "Rabbit holes",
+        "Why I kept this"
+      ],
+      "parent_seed_key": null,
+      "display_order": 13
+    }
+  ]
+}

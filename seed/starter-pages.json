@@ -1,0 +1,132 @@
+{
+  "format_version": 1,
+  "instructions": "Generic seed definitions for compatibility and isolated tests. Unknown historical seeds are preserved and excluded from automatic cleanup.",
+  "pages": [
+    {
+      "seed_key": "meta-why",
+      "title": "Why this Atlas exists",
+      "entity_type": "note",
+      "kind": "note",
+      "body_markdown": "Personal Atlas exists to hold a meaningful part of a life in one place: things written, encountered, experienced, considered, and not yet understood.\n\n**One collection, many entrances.**\n\nIt is a commonplace book in spirit, an atlas in navigation, and a network underneath. An outline provides orientation; connections allow the same thing to belong in more than one part of life.\n\nLife areas describe what something concerns. Entry kinds describe what it is. Connections describe what it relates to. A poem can concern travel, connect to an experience, and remain a poem without being copied into several folders.\n\nThe Atlas is comprehensive in what it can hold and undemanding in what it asks. Making and appreciating have separate entrances. Play has room outside achievement. A feeling does not have to become a lesson, and an interest does not have to become a project.\n\nThis is not a report card or a compulsory diary. It can add context alongside existing tools rather than replace them. Its organization can change as its owner changes.",
+      "area_seed_keys": [],
+      "pin_on_home": true,
+      "rediscovery_allowed": false,
+      "hidden": false,
+      "origin": "starter"
+    },
+    {
+      "seed_key": "meta-influences",
+      "title": "Influences and departures",
+      "entity_type": "note",
+      "kind": "reference",
+      "body_markdown": "## Influences, not instructions\n\n### Michel Foucault: collecting and returning\n\nIn “Self Writing,” Foucault discusses *hupomnemata*: notebooks that gather material encountered through reading, listening, and thought for later use and reflection. He distinguishes them from confessional journals. The Atlas borrows the practice of collecting and returning, while extending it to original writing, experiences, and practical context. It does not claim to reproduce an ancient practice or adopt Foucault's wider philosophy.\n\n### William James: different aspects of self\n\nIn *The Principles of Psychology*, Chapter X, James discusses material, social, and spiritual aspects of self within a larger account. The spiritual aspect here concerns inner capacities and dispositions, not only religion. The Atlas borrows the idea of several perspectives on a person, not a rigid three-part taxonomy or a complete account of James's theory.\n\n### The Atlas's own adaptation\n\nHow am I living? How am I relating? What am I becoming?\n\nThese questions are this project's adaptation, not quotations from either thinker. They are optional perspectives, not categories every entry must satisfy.\n\nA commonplace book in spirit, an atlas in navigation, and a network underneath.\n\nThe map should remain revisable. These influences can be questioned, expanded, or replaced as the notebook develops.\n\n## References\n\n- [Michel Foucault, “Self Writing”](https://foucault.info/documents/foucault.hypomnemata.en/)\n- [William James, *The Principles of Psychology*, Chapter X](https://psychclassics.yorku.ca/James/Principles/prin10.htm)\n\nThe references require an internet connection to open. This page's text remains available offline.",
+      "area_seed_keys": [],
+      "pin_on_home": false,
+      "rediscovery_allowed": false,
+      "hidden": false,
+      "origin": "starter"
+    },
+    {
+      "seed_key": "meta-own-interpretation",
+      "title": "My own thinking about the Atlas",
+      "entity_type": "note",
+      "kind": "reflection",
+      "body_markdown": "",
+      "editor_placeholder": "What do I want this Atlas to be? What would I borrow, reject, or change?",
+      "area_seed_keys": [],
+      "pin_on_home": false,
+      "rediscovery_allowed": false,
+      "hidden": false,
+      "origin": "starter"
+    },
+    {
+      "seed_key": "letter-to-myself",
+      "title": "Letter to myself",
+      "entity_type": "note",
+      "kind": "letter",
+      "body_markdown": "",
+      "editor_placeholder": "This letter can evolve. Begin wherever you are.",
+      "area_seed_keys": [
+        "inner-life"
+      ],
+      "pin_on_home": true,
+      "rediscovery_allowed": false,
+      "hidden": false,
+      "origin": "starter"
+    },
+    {
+      "seed_key": "first-poem",
+      "title": "A poem",
+      "entity_type": "note",
+      "kind": "poem",
+      "body_markdown": "",
+      "editor_placeholder": "A line, a stanza, or an unfinished fragment.",
+      "area_seed_keys": [
+        "making"
+      ],
+      "pin_on_home": false,
+      "initial_editor_block": "poetry",
+      "rediscovery_allowed": false,
+      "hidden": false,
+      "origin": "starter"
+    },
+    {
+      "seed_key": "first-observation",
+      "title": "An observation",
+      "entity_type": "note",
+      "kind": "observation",
+      "body_markdown": "",
+      "editor_placeholder": "Something noticed. It does not need a conclusion.",
+      "area_seed_keys": [
+        "inner-life"
+      ],
+      "pin_on_home": false,
+      "rediscovery_allowed": false,
+      "hidden": false,
+      "origin": "starter"
+    },
+    {
+      "seed_key": "first-lesson",
+      "title": "A life lesson",
+      "entity_type": "note",
+      "kind": "lesson",
+      "body_markdown": "",
+      "editor_placeholder": "What did I learn, and from what? I can change my mind later.",
+      "area_seed_keys": [
+        "inner-life"
+      ],
+      "pin_on_home": false,
+      "rediscovery_allowed": false,
+      "hidden": false,
+      "origin": "starter"
+    },
+    {
+      "seed_key": "first-reference",
+      "title": "A saved discovery",
+      "entity_type": "note",
+      "kind": "reference",
+      "body_markdown": "",
+      "editor_placeholder": "Add a link, an excerpt, or a local file, and perhaps why you kept it.",
+      "area_seed_keys": [
+        "internet-bible"
+      ],
+      "pin_on_home": false,
+      "rediscovery_allowed": false,
+      "hidden": false,
+      "origin": "starter"
+    }
+  ],
+  "collections": [
+    {
+      "seed_key": "meta-collection",
+      "title": "About this Atlas",
+      "description": "Why this notebook exists, what inspired it, and space to rethink it.",
+      "member_seed_keys": [
+        "meta-why",
+        "meta-influences",
+        "meta-own-interpretation"
+      ]
+    }
+  ],
+  "relations": []
+}

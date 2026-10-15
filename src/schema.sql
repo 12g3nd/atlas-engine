@@ -1,0 +1,11 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE IF NOT EXISTS entries(id TEXT PRIMARY KEY, data TEXT NOT NULL CHECK(json_valid(data)));
+CREATE TABLE IF NOT EXISTS areas(id TEXT PRIMARY KEY, data TEXT NOT NULL CHECK(json_valid(data)));
+CREATE TABLE IF NOT EXISTS collections(id TEXT PRIMARY KEY, data TEXT NOT NULL CHECK(json_valid(data)));
+CREATE TABLE IF NOT EXISTS relations(id TEXT PRIMARY KEY, data TEXT NOT NULL CHECK(json_valid(data)));
+CREATE TABLE IF NOT EXISTS attachments(id TEXT PRIMARY KEY, data TEXT NOT NULL CHECK(json_valid(data)));
+CREATE TABLE IF NOT EXISTS revisions(id TEXT PRIMARY KEY, data TEXT NOT NULL CHECK(json_valid(data)));
+CREATE TABLE IF NOT EXISTS settings(key TEXT PRIMARY KEY, value TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS seed_ledger(key TEXT PRIMARY KEY);
+CREATE TABLE IF NOT EXISTS entry_areas(entry_id TEXT REFERENCES entries(id),area_id TEXT REFERENCES areas(id),PRIMARY KEY(entry_id,area_id));
+CREATE VIRTUAL TABLE IF NOT EXISTS entry_fts USING fts5(id UNINDEXED,title,body,tokenize='unicode61 remove_diacritics 2');
